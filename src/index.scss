@@ -1,7 +1,16 @@
 $font-text: 'Jost', sans-serif;
 $font-title: 'Bungee', sans-serif;
+$color-dark-primary: #4F9083;
+$color-light-primary: #A7CBC4;
+$color-dark-secondary: #f3c849;
+$color-light-secondary: #f8efd2;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
-  margin: 0px;
   font-family: $font-text;
+  background-color: $color-light-secondary;
 }
