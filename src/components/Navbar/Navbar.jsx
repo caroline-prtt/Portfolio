@@ -3,6 +3,7 @@ import logo from "../../assets/logo.png";
 import "./navbar.scss"
 
 function Navbar(){
+
     return(
         <nav className="navbar">
             <div className="navbar__logo">

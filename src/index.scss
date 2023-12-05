@@ -12,5 +12,6 @@ $color-light-secondary: #f8efd2;
 
 body {
   font-family: $font-text;
-  background-color: white
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(167,203,196,1) 50%, rgba(255,255,255,1) 100%);
 }

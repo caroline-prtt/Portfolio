@@ -5,7 +5,13 @@ function Home() {
   return(
     <Element name="home">
       <div className="home">
-        <p>Bonjour, Je suis Caroline Protat</p>
+        <div className="home__title">
+          <p><span>Bienvenue sur mon portfolio,</span></p>
+          <p><span>Je suis Caroline Protat,</span></p>
+          <p><span>Développeuse web junior.</span></p>
+        </div>
+        <div className="home__picture">
+        </div>
       </div>
     </Element>
   )  
