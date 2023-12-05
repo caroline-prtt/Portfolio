@@ -1,21 +1,48 @@
-@mixin flex-sb-center{
+@import '../../index.scss';
+
+.navbar{
+    position: fixed;
+        left: 0;
+        right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar{
-    @include flex-sb-center();
-    padding: 15px 40px;
+    height: 100px;
+    padding: 10px 30px;
+    box-sizing: border-box;
     background-color: white;
-
-    .navbar__logo{
-        width: 120px;
-        @include flex-sb-center();
+    box-shadow: 0px 4px 20px rgb(202, 199, 199);
+    
+    &__logo{
+        width: 140px;
 
         img{
             width: 100%;
         }
     }
-}
 
+    &__menu{
+        display: flex;
+        gap: 20px;
+
+        &__link{
+            list-style: none;
+            font-size:18px;
+            font-weight: 600;
+            padding: 10px;
+            color: black;
+            border-right: 1px solide white;
+            border-bottom: 1px solide white;
+            box-shadow: 3px 3px 3px white;
+            border-radius: 0 5px 10px 5px;
+            transition: color 0.3s ease, border-right 0.3s ease, border-bottom 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                color: $color-light-primary;
+                border-right: 2px solide grey;
+                border-bottom: 2px solide grey;
+                box-shadow: 4px 4px 4px rgb(202, 199, 199);
+            }
+        }
+    }
+}
