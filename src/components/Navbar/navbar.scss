@@ -1,0 +1,21 @@
+@mixin flex-sb-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    @include flex-sb-center();
+    padding: 15px 40px;
+    background-color: white;
+
+    .navbar__logo{
+        width: 120px;
+        @include flex-sb-center();
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
