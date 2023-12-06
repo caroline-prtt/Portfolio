@@ -22,22 +22,47 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
     background: rgb(195,220,215);
     background: linear-gradient(0deg, rgba(195,220,215,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
     height: 100vh;
     padding: 200px 150px 100px 150px;
     box-sizing: border-box;
 
-    &__title{
+    @media(max-width: 1024px){
+        padding: 200px 100px 100px 100px;
+    }
 
+    @media(max-width: 768px){
+        flex-direction: column-reverse;
+        padding: 150px 100px 100px 100px;
+        height: auto;
+    }
+
+    @media(max-width: 550px){
+        padding: 150px 50px 100px 50px;
+    }
+   
+    &__title{
         z-index: 1;
+
+        @media(max-width: 768px){
+            text-align: center;
+        }
 
         .title{
             color: black;
             color: transparent;
             // font-size:0px;
             font-size: 40px;
+
+            @media(max-width: 1200px){
+                font-size: 25px;   
+            }
+
+            @media(max-width: 550px){
+                font-size: 18px;
+            }
 
             span{
                 display: inline-block;
@@ -60,8 +85,14 @@
                 font-size: 32px;
                 // font-weight: 700;
                 font-family: $font-text;
-                animation: text-appearance 0s 1s
-                forwards;
+                animation: text-appearance 0s 1s forwards;
+
+                @media(max-width: 1024px){
+                    font-size: 20px;
+                }
+                @media(max-width: 550px){
+                    font-size: 17px;
+                }
 
                 span::after{
                     background-color: $color-dark-secondary;
@@ -91,6 +122,10 @@
             font-size: 20px;
             margin-top: 10px;
 
+            @media(max-width: 1024px){
+                font-size: 15px;
+            }
+
             &:last-of-type{
                 text-decoration: underline;
             }
@@ -101,25 +136,45 @@
             gap:20px;
             font-size: 50px;
             margin-top: 10px;
+
+            @media(max-width: 768px){
+                justify-content: center;
+            }
+
+            @media(max-width: 550px){
+                font-size: 40px;
+                gap: 10px;
+            }
+
             a{
                 position: relative;
                 width: 50px;
                 height: 50px;
                 color:black;
+
                 svg{
                     position: absolute;
+                        left: 7px;
+                        top: 0;
                 }
             }
         }
     }
 
     &__picture{
-        width: 400px;
-        height: 400px;
-        background-color: $color-light-primary;
-        border: 1px solid rgba(128, 128, 128, 0.685);
-        border-radius: 21% 79% 28% 72% / 68% 79% 21% 32% ;
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.481);
+        width: 500px;
+
+        @media(max-width: 1024px){
+            width: 350px;
+        }
+
+        @media(max-width: 768px){
+            width: 55%;
+        }
+
+        img{
+            width: 100%;
+        }
     }
 }
 
