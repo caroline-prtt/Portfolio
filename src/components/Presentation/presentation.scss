@@ -1,5 +1,15 @@
+@import "../../index.scss";
+
 .presentation{
     height: 100vh;
+    padding: 100px 150px;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(195,220,215,1) 100%);
+
+    h2{
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+      
+    }
 }
