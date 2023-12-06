@@ -96,11 +96,20 @@
             }
         }
 
-        .link__contact{
-            margin-top: 10px;
+        .icons{
             display: flex;
             gap:20px;
             font-size: 50px;
+            margin-top: 10px;
+            a{
+                position: relative;
+                width: 50px;
+                height: 50px;
+                color:black;
+                svg{
+                    position: absolute;
+                }
+            }
         }
     }
 

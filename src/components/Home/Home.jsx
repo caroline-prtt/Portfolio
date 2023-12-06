@@ -13,9 +13,9 @@ function Home() {
           <p className="home__title title"><span>DÉVELOPPEUSE WEB JUNIOR.</span></p>
           <p className="home__title subtitle">Basée sur Lyon, je suis à la recherche de ma première expérience en tant que développeuse web.</p>
           <p className="home__title subtitle">Où me trouver :</p>
-          <div className="link__contact">
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faGithub} />
+          <div className="home__title icons">
+            <a href="#" title="Mon profil Linkedin"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https://github.com/caroline-prtt" title="Mon compte GitHub"><FontAwesomeIcon icon={faGithub} /></a>
           </div>
         </div>
 
