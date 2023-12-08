@@ -14,3 +14,20 @@ body {
   font-family: $font-text;
   background-color: white
 }
+
+h2{
+    font-size: 40px;
+    font-weight: 800;
+    
+    @media(max-width: 768px){
+        font-size: 30px;
+    }
+
+    @media(max-width: 425px){
+        font-size: 25px;
+    }
+}
+
+h3{
+    font-size: 25px;
+}
