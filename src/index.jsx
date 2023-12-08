@@ -12,6 +12,5 @@ root.render(
       <Navbar/>
       <Routing />
     </Router>
-      
   </React.StrictMode>
 );

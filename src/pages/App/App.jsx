@@ -6,10 +6,10 @@ import Contact from "../../components/Contact/Contact";
 function App() {
   return(
     <>
-        <Home/>
-        <Presentation/>
-        <Portfolio/>
-        <Contact/>
+      <Home/>
+      <Presentation/>
+      <Portfolio/>
+      <Contact/>
     </>
   )
 }
