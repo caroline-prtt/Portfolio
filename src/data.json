@@ -1,0 +1,90 @@
+[
+    {
+        "id": "1",
+        "title": "Booki",
+        "subtitle": "Création de la page d’accueil d’une agence de voyage en HTML et CSS, conformément aux maquettes de l’UI Designer.",
+        "context": "Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
+        "mission": {
+            "principale" : "La mission consistait à intégrer l’interface du site web de la start-up Booki, uniquement avec les langages HTML et CSS, et conformément aux maquettes établies par l'UI Designer via l’outil Figma. Ce site permet à ses usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+            "details": ""
+        },
+        "skills":[
+            "Intégration à partir d'une maquette (Figma)",
+            "Langage HTML (balise meta, balises sémantique, etc)",
+            "Langage CSS (flexbox, etc)",
+            "Réalisation d’un site responsive pour desktop, tablette et mobile"
+        ],
+        "keywords": 
+        [
+            "HTML",
+            "CSS",
+            "FIGMA",
+            "GIT"
+        ],
+        "cover": "https://drive.google.com/file/d/1mXJrIMkntpdN5CywEKAa1qyN2JngFFRL/view?usp=sharing",
+        "pictures": "https://drive.google.com/file/d/1SB7Ih6c-OLVqzoXHBsJsueK7N6fqLdgH/view?usp=sharing",
+        "github": "https://github.com/caroline-prtt/OC-PROJET2-Booki",
+        "demo": "https://caroline-prtt.github.io/OC-PROJET2-Booki/"
+    },
+    {
+        "id":"2",
+        "title":"Sophie Bluel",
+        "subtitle":"Création d'un site dynamique avec JavaScript",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
+        "mission": {
+            "principale" : "La mission consistait à concevoir le site portfolio de l’architecte Sophie Bluel. Et plus précisément :",
+            "details": [
+                "finaliser la page de présentation des travaux de l'architecte (à partir du code déjà existant",
+                "créer la page de connexion de l'administrateur du site (code à créer de zéro)",
+                "créer une modale permettant à l'administrateur de gérer sa galerie de travaux (ajouter et supprimer des travaux)"
+            ]
+        },
+        "skills":[
+            "Langage JavaScript (manipulation du DOM, gestion des évènements utilisateurs...)",
+            "Récupération de données à l’aide de requêtes HTTP vers l’API Rest",
+            "Utilisation de Swagger"
+        ],
+        "keywords": 
+        [
+            "JAVASCRIPT",
+            "SWAGGER",
+            "API REST"
+        ],
+        "cover": "https://drive.google.com/file/d/1m9sh-julNy0uGg2BlqC3DlwVcLd2t1MH/view?usp=sharing",
+        "pictures": "",
+        "github":"https://github.com/caroline-prtt/OC-PROJET3-Portfolio-architecte-sophie-bluel",
+        "demo":""
+    },
+    {
+        "id":"3",
+        "title":"Nina Carducci",
+        "subtitle":"",
+        "context":"",
+        "mission": {
+            "principale" : "",
+            "details": ""
+        },
+        "skills":[
+            "",
+            "",
+            ""
+        ],
+        "keywords": 
+        [
+            "",
+            "",
+            ""
+        ],
+        "cover": "",
+        "pictures":[
+            "",
+            "",
+            ""
+        ],
+        "github":"",
+        "demo":""
+    }
+]
+
+
+
