@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import data from "../../data.json";
 import ErrorPage from "../ErrorPage/ErrorPage";
+import './project.scss'
 
 function Project() {
     
@@ -13,7 +14,13 @@ function Project() {
     }
 
     return(
-        <p>Bienvenue sur la page du projet numéro {id}</p>
+        <div className="project">
+            <div>
+                <p>Bienvenue sur la page du projet numéro {id}</p>
+            </div>
+        </div>
+        
     )
 }
+
 export default Project;
