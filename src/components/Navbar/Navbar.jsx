@@ -11,10 +11,18 @@ function Navbar(){
             </div>
             <div className="navbar__menu">
                 <ul className="navbar__menu__list">
-                    <li className="navbar__menu__list__link"><Link smooth to="/#home">ACCUEIL</Link></li>
-                    <li className="navbar__menu__list__link"><Link smooth to="/#presentation">PRÉSENTATION</Link></li>
-                    <li className="navbar__menu__list__link"><Link smooth to="/#portfolio">PORTFOLIO</Link></li>
-                    <li className="navbar__menu__list__link"><Link smooth to="/#contact">CONTACT</Link></li>
+                    <li className="navbar__menu__list list">
+                        <Link smooth to="/#home" className="navbar__menu__list link">ACCUEIL</Link>
+                    </li>
+                    <li className="navbar__menu__list list">
+                        <Link smooth to="/#presentation" className="navbar__menu__list link">PRÉSENTATION</Link>
+                    </li>
+                    <li className="navbar__menu__list list">
+                        <Link smooth to="/#portfolio" className="navbar__menu__list link">PORTFOLIO</Link>
+                    </li>
+                    <li className="navbar__menu__list list">
+                        <Link smooth to="/#contact" className="navbar__menu__list link">CONTACT</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

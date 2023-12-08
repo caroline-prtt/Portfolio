@@ -39,13 +39,13 @@
             @media (max-width: 768px){
                 gap: 10px;
             }
-        
-            &__link{
-                list-style: none;
-                font-size:18px;
+
+            .link{
+                font-size: 18px;
                 font-weight: 600;
-                padding: 10px;
                 color: black;
+                text-decoration: none;
+                padding: 10px;
                 border-right: 1px solide white;
                 border-bottom: 1px solide white;
                 box-shadow: 3px 3px 3px white;
@@ -54,7 +54,7 @@
 
                 @media (max-width: 768px){
                     font-size: 14px;
-                    padding: 6px;
+                    // padding: 6px;
                 }
 
                 &:hover{
