@@ -1,6 +1,13 @@
 @import "../../index.scss";
 
 .portfolio{
-    height: 600px;
-    background-color: white;
+    padding: 150px 150px;
+    background: rgb(195,220,215);
+    background: linear-gradient(0deg, rgba(195,220,215,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+
+    &__title{
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+    }
 }

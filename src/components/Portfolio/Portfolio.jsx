@@ -5,10 +5,10 @@ function Portfolio() {
     return(
         <Element name="portfolio">
             <div className="portfolio">
-                <p>Ceci est mon Porfolio</p>
+                <h2 className="portfolio__title">PORTFOLIO</h2>
             </div>
         </Element>
     )
 }
 
-export default Portfolio;
+export default Portfolio ;
