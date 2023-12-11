@@ -157,6 +157,10 @@
                 height: 50px;
                 color:black;
 
+                &:hover{
+                    color: $color-dark-primary;
+                }
+
                 svg{
                     position: absolute;
                         left: 7px;
