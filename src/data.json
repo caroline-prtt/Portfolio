@@ -3,16 +3,16 @@
         "id": "1",
         "title": "Booki",
         "subtitle": "Création de la page d’accueil d’une agence de voyage en HTML et CSS, conformément aux maquettes de l’UI Designer",
-        "context": "Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
+        "context": "Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
-            "principale" : "La mission consistait à intégrer l’interface du site web de la start-up Booki, uniquement avec les langages HTML et CSS, et conformément aux maquettes établies par l'UI Designer via l’outil Figma. Ce site permet à ses usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-            "details": ""
+            "principale" : "Au cours de ce projet, ma mission consistait à effectuer l'intégration de l'interface du site web de la start-up Booki. Cette tâche impliquait l'utilisation exclusive des langages HTML et CSS, en respectant scrupuleusement les maquettes élaborées par l'UI Designer à travers l'outil Figma. Le site que j'ai contribué à développer offre aux utilisateurs la possibilité de rechercher des hébergements et des activités dans la ville de leur choix.",
+            "details": []
         },
         "skills":[
-            "Intégration à partir d'une maquette (Figma)",
-            "Langage HTML (balise meta, balises sémantique, etc)",
-            "Langage CSS (flexbox, etc)",
-            "Réalisation d’un site responsive pour desktop, tablette et mobile"
+            "Intégration à partir d'une maquette (Figma): transformation des concepts visuels établis sur Figma en une interface web esthétique",
+            "Langage HTML : maitrise des balise meta, des balises sémantiques, et autres éléments essentiels pour la structure optimale du contenu",
+            "Langage CSS : utilisation de concepts tels que flexbox pour assurer une mise en page flexible et élégante du site",
+            "Réalisation d’un site responsive : interface adaptative pour garantir une expérience utilisateur sur desktop, tablette et mobile"
         ],
         "keywords": 
         [
@@ -30,19 +30,18 @@
         "id":"2",
         "title":"Sophie Bluel",
         "subtitle":"Création d'un site dynamique avec JavaScript",
-        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
-            "principale" : "La mission consistait à concevoir le site portfolio de l’architecte Sophie Bluel. Et plus précisément :",
+            "principale" : "Dans le cadre de ce projet, ma mission était de concevoir le site portfolio pour l'architecte Sophie Bluel. Les aspects spécifiques de cette mission comprenaient :",
             "details": [
-                "finaliser la page de présentation des travaux de l'architecte (à partir du code déjà existant",
-                "créer la page de connexion de l'administrateur du site (code à créer de zéro)",
-                "créer une modale permettant à l'administrateur de gérer sa galerie de travaux (ajouter et supprimer des travaux)"
+                "Finalisation de la page de présentation des travaux : optimisation et achèvement de la page existante dédiée à la présentation des réalisations de l'architecte, en s'appuyant sur le code préexistant",
+                "Création de la page de connexion de l'administrateur : développement complet de la page de connexion destinée à l'administrateur du site, à partir de zéro",
+                "Implémentation d'une modale pour la gestion de la galerie de travaux: conception et intégration d'une modale interactive permettant à l'administrateur d'ajouter et supprimer des travaux de manière efficace au sein de sa galerie, offrant ainsi une gestion optimale des contenus"
             ]
         },
         "skills":[
-            "Langage JavaScript (manipulation du DOM, gestion des évènements utilisateurs...)",
-            "Récupération de données à l’aide de requêtes HTTP vers l’API Rest",
-            "Utilisation de Swagger"
+            "Langage JavaScript : manipulation du DOM permettant une interaction dynamique et fluide avec les éléments de la page, et gestion des événements utilisateurs pour assurer une expérience intuitive et réactive",
+            "Récupération de données via des requêtes HTTP vers une API Rest : utilisation des requêtes HTTP pour récupérer et traiter efficacement les données nécessaires à partir d'une API Rest"
         ],
         "keywords": 
         [
@@ -51,7 +50,7 @@
             "API REST"
         ],
         "cover": "/images/SophieBluel_appli.png",
-        "pictures": "/appli/SophieBluel_mockup.png",
+        "pictures": "/images/SophieBluel_mockup.png",
         "github":"https://github.com/caroline-prtt/OC-PROJET3-Portfolio-architecte-sophie-bluel",
         "demo":""
     },
@@ -59,21 +58,21 @@
         "id":"3",
         "title":"Nina Carducci",
         "subtitle":"Débug et optimisation d'un site de photographe ",
-        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
-            "principale" : "Nous avions pour mission d'optimiser le site internet de la photographe Nina Carducci. Plus particulièrement, la demande de cette dernière portait sur :",
+            "principale" : "Dans le cadre de ce projet, notre mission consistait à optimiser le site web de la photographe Nina Carducci. Plus précisément, les exigences spécifiques de cette mission étaient les suivantes :",
             "details": [
-                "l'optimisation de son site internet, tant sur le SEO que sur les performances et l'accessibilité",
-                "la résolution de deux bugs qui concernaient le défilement des photos dans la modale de la galerie, ainsi que l'affichage de la couleur de fond sur les filtres actifs"
+                "L'optimisation globale de son site : amélioration du référencement naturel (SEO) du site pour accroite sa visibilité sur les moteurs de recherche, optimiser les performances pour assurer une expérience utilisateur fluide et réactive, et renforcer l'accessibilité pour garantir une utilisation optimale pour tous les utilisateurs, indépendemment de leurs capacités",
+                "La résolution de bugs spécifiques : corrections des dysfonctionnements liés au défilement des photos dans la modale de la galerie, et résoudre les problèmes d'affichage de la couleur de fond des filtres actifs"
             ]
         },
         "skills":[
-            "SEO et optimisation des performances",
-            "Meta-tags pour les réseaux sociaux",
-            "Micro-données et référencement local (Schema.org et Google Rich Snippets)",
-            "Accessibilité du site internet et audit Wave (textes alternatifs, structure sémantique, contraste des couleurs...)",
-            "Réalisation d'audit Google Lighthouse",
-            "Rédaction d'un rapport d'intervention"
+            "SEO et optimisation des performances : mise en oeuvre de stratégies pour améliorer le classement du site dans les résultats de recherche et optimiser ses performances",
+            "Meta-tags pour les réseaux sociaux : utilisation de balises meta pour optimiser le partage du contenu sur les réseaux sociaux comme Meta (Facebook) ou X (Twitter)",
+            "Micro-données et référencement local : intégration de micro-données conformes à Schema.org et Google Rich Snippets pour une indexation plus précise par les moteurs de recherche ",
+            "Accessibilité du site internet et audit Wave : audit approfondie de l'accessibilité du site à l'aide de l'outil Wave, avec une attention particulière portée aux textes alternatifs, à la structure sémantique et au contraste des couleurs",
+            "Réalisation d'audit Google Lighthouse : exécution d'un audit complet à l'aide de Google Lighthouse pour évaluer et améliorer les performances globales du site",
+            "Rédaction d'un rapport d'intervention : compilation d'un rapport détaillé, documentant les actions entreprises et les problèmes résolus"
         ],
         "keywords": 
         [
@@ -90,10 +89,10 @@
         "id":"4",
         "title":"Kasa",
         "subtitle":"Création d'une application web de location immobilière avec React",
-        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
             "principale" : "Dans le cadre d'une refonte totale du site de Kasa, une plateforme de location immobilière, nous avons été missionné pour réaliser le front-end. Celui-ci devait être réalisé avec React. Nous devions alors développer l'ensemble de l'application, les composants React, les routes React Router, le tout en suivant les maquettes Figma (responsive) transmise par le designer.",
-            "details":""
+            "details":[]
         },
         "skills":[
             "Initialisation d'un projet React à l'aide du bundler Create React App",
@@ -117,7 +116,7 @@
         "id":"5",
         "title":"Mon Vieux Grimoire",
         "subtitle":"Développement du back-end d'un site de notation de livres",
-        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
             "principale" : "La mission consistait à développer le back-end du site Mon Vieux Grimoire, un site de référencement et de notation de livres. Et plus particulièrement, il s'agissait de :",
             "details": [
@@ -141,7 +140,7 @@
             "NODE JS",
             "EXPRESS",
             "MONGO DB",
-            "API Rest"
+            "API REST"
         ],
         "cover": "/images/VieuxGrimoire_appli.png",
         "pictures":"/images/VieuxGrimoire_mockup.png",
