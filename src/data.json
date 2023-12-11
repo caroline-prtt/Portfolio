@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Booki",
-        "subtitle": "Création de la page d’accueil d’une agence de voyage en HTML et CSS, conformément aux maquettes de l’UI Designer.",
+        "subtitle": "Création de la page d’accueil d’une agence de voyage en HTML et CSS, conformément aux maquettes de l’UI Designer",
         "context": "Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
         "mission": {
             "principale" : "La mission consistait à intégrer l’interface du site web de la start-up Booki, uniquement avec les langages HTML et CSS, et conformément aux maquettes établies par l'UI Designer via l’outil Figma. Ce site permet à ses usagers de trouver des hébergements et des activités dans la ville de leur choix.",
@@ -92,51 +92,60 @@
         "subtitle":"Création d'une application web de location immobilière avec React",
         "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
         "mission": {
-            "principale" : "",
-            "details": [
-                "",
-                ""
-            ]
+            "principale" : "Dans le cadre d'une refonte totale du site de Kasa, une plateforme de location immobilière, nous avons été missionné pour réaliser le front-end. Celui-ci devait être réalisé avec React. Nous devions alors développer l'ensemble de l'application, les composants React, les routes React Router, le tout en suivant les maquettes Figma (responsive) transmise par le designer.",
+            "details":""
         },
         "skills":[
-            "",
-            ""
+            "Initialisation d'un projet React à l'aide du bundler Create React App",
+            "Les composants React & les props",
+            "Les hooks (useState, useEffect, useParams)", 
+            "Réalisation du routing avec la librairie React Router",
+            "Design de la page avec Sass"
         ],
         "keywords": 
         [
             "REACT",
-            ""
+            "REACT ROUTER",
+            "SASS"
         ],
         "cover": "/images/Kasa_appli.png",
-        "pictures":"",
+        "pictures":"/images/kasa_mockup.png",
         "github":"https://github.com/caroline-prtt/OC-PROJET-6-Kasa",
         "demo":"https://caroline-prtt.github.io/OC-PROJET-6-Kasa/"
     },
     {
         "id":"5",
         "title":"Mon Vieux Grimoire",
-        "subtitle":"",
+        "subtitle":"Développement du back-end d'un site de notation de livres",
         "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
         "mission": {
-            "principale" : "",
+            "principale" : "La mission consistait à développer le back-end du site Mon Vieux Grimoire, un site de référencement et de notation de livres. Et plus particulièrement, il s'agissait de :",
             "details": [
-                "",
-                ""
+                "concevoir et mettre en place le serveur",
+                "développer l'API",
+                "configurer la base de données"
             ]
         },
         "skills":[
-            "",
-            ""
+            "Création et configuration du serveur Express",
+            "Configuration de la base de données MongoDB Atlas",
+            "Utilisation de la librairie Mongoose",
+            "Développement de l'API Rest",
+            "Définition des routes pour les fonctionnalités CRUD",
+            "Controllers et Middleware",
+            "Création et vérification de token JWT",
+            "Gestion du CORS (Cross-Origin Ressource Sharing)"
         ],
         "keywords": 
         [
             "NODE JS",
             "EXPRESS",
-            "MONGO DB"
+            "MONGO DB",
+            "API Rest"
         ],
-        "cover": "",
-        "pictures":"",
-        "github":"",
+        "cover": "/images/VieuxGrimoire_appli.png",
+        "pictures":"/images/VieuxGrimoire_mockup.png",
+        "github":"https://github.com/caroline-prtt/OC-PROJET-7-Mon-Vieux-Grimoire",
         "demo":""
     }
 ]
