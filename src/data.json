@@ -21,8 +21,8 @@
             "FIGMA",
             "GIT"
         ],
-        "cover": "https://drive.google.com/file/d/1mXJrIMkntpdN5CywEKAa1qyN2JngFFRL/view?usp=sharing",
-        "pictures": "https://drive.google.com/file/d/1SB7Ih6c-OLVqzoXHBsJsueK7N6fqLdgH/view?usp=sharing",
+        "cover": "/images/booki_appli.png",
+        "pictures": "/images/booki_mockup.png",
         "github": "https://github.com/caroline-prtt/OC-PROJET2-Booki",
         "demo": "https://caroline-prtt.github.io/OC-PROJET2-Booki/"
     },
@@ -50,33 +50,92 @@
             "SWAGGER",
             "API REST"
         ],
-        "cover": "https://drive.google.com/file/d/1m9sh-julNy0uGg2BlqC3DlwVcLd2t1MH/view?usp=sharing",
-        "pictures": "https://drive.google.com/file/d/1f26KJPOdygbjud3oElqAmWvja8LGjuBO/view?usp=sharing",
+        "cover": "/images/SophieBluel_appli.png",
+        "pictures": "/appli/SophieBluel_mockup.png",
         "github":"https://github.com/caroline-prtt/OC-PROJET3-Portfolio-architecte-sophie-bluel",
         "demo":""
     },
     {
         "id":"3",
         "title":"Nina Carducci",
-        "subtitle":"",
-        "context":"",
+        "subtitle":"Débug et optimisation d'un site de photographe ",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
         "mission": {
-            "principale" : "",
-            "details": ""
+            "principale" : "Nous avions pour mission d'optimiser le site internet de la photographe Nina Carducci. Plus particulièrement, la demande de cette dernière portait sur :",
+            "details": [
+                "l'optimisation de son site internet, tant sur le SEO que sur les performances et l'accessibilité",
+                "la résolution de deux bugs qui concernaient le défilement des photos dans la modale de la galerie, ainsi que l'affichage de la couleur de fond sur les filtres actifs"
+            ]
         },
         "skills":[
-            "",
+            "SEO et optimisation des performances",
+            "Meta-tags pour les réseaux sociaux",
+            "Micro-données et référencement local (Schema.org et Google Rich Snippets)",
+            "Accessibilité du site internet et audit Wave (textes alternatifs, structure sémantique, contraste des couleurs...)",
+            "Réalisation d'audit Google Lighthouse",
+            "Rédaction d'un rapport d'intervention"
+        ],
+        "keywords": 
+        [
+            "SEO",
+            "ACCESSIBILITÉ",
+            "GOOGLE LIGHTHOUSE"
+        ],
+        "cover": "/images/NinaCarducci_appli.png",
+        "pictures":"/images/NinaCarducci_mockup.png",
+        "github":"https://github.com/caroline-prtt/OC-PROJET5-Nina-Carducci",
+        "demo":"https://caroline-prtt.github.io/OC-PROJET5-Nina-Carducci/"
+    },
+    {
+        "id":"4",
+        "title":"Kasa",
+        "subtitle":"Création d'une application web de location immobilière avec React",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
+        "mission": {
+            "principale" : "",
+            "details": [
+                "",
+                ""
+            ]
+        },
+        "skills":[
             "",
             ""
         ],
         "keywords": 
         [
-            "",
+            "REACT",
+            ""
+        ],
+        "cover": "/images/Kasa_appli.png",
+        "pictures":"",
+        "github":"https://github.com/caroline-prtt/OC-PROJET-6-Kasa",
+        "demo":"https://caroline-prtt.github.io/OC-PROJET-6-Kasa/"
+    },
+    {
+        "id":"5",
+        "title":"Mon Vieux Grimoire",
+        "subtitle":"",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023",
+        "mission": {
+            "principale" : "",
+            "details": [
+                "",
+                ""
+            ]
+        },
+        "skills":[
             "",
             ""
         ],
-        "cover": "https://drive.google.com/file/d/16Fx4dwYTc7W9txWkLlzmQ0Dzll7LFzcM/view?usp=sharing",
-        "pictures":"https://drive.google.com/file/d/1mVJViB1tcjWYqrQ0OKtVt7BALxleOhE5/view?usp=sharing",
+        "keywords": 
+        [
+            "NODE JS",
+            "EXPRESS",
+            "MONGO DB"
+        ],
+        "cover": "",
+        "pictures":"",
         "github":"",
         "demo":""
     }
