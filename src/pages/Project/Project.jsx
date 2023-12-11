@@ -41,7 +41,7 @@ function Project() {
                     </div>
                     <div className="project__content__description__mission">
                         <h4>DESCRIPTION</h4>
-                        <p className="project__content__description__mission principale">{project.mission.principale}</p>
+                        <p className="project__content__description__mission principale">{project.mission.principal}</p>
                         <ul className="project__content__description__mission details">
                             {project.mission.details.map((detail, index) =>(
                                 <li>{detail}</li>
