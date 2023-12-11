@@ -5,7 +5,7 @@
         "subtitle": "Création de la page d’accueil d’une agence de voyage en HTML et CSS, conformément aux maquettes de l’UI Designer",
         "context": "Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
-            "principale" : "Au cours de ce projet, ma mission consistait à effectuer l'intégration de l'interface du site web de la start-up Booki. Cette tâche impliquait l'utilisation exclusive des langages HTML et CSS, en respectant scrupuleusement les maquettes élaborées par l'UI Designer à travers l'outil Figma. Le site que j'ai contribué à développer offre aux utilisateurs la possibilité de rechercher des hébergements et des activités dans la ville de leur choix.",
+            "principal" : "Au cours de ce projet, ma mission consistait à effectuer l'intégration de l'interface du site web de la start-up Booki. Cette tâche impliquait l'utilisation exclusive des langages HTML et CSS, en respectant scrupuleusement les maquettes élaborées par l'UI Designer à travers l'outil Figma. Le site que j'ai contribué à développer offre aux utilisateurs la possibilité de rechercher des hébergements et des activités dans la ville de leur choix.",
             "details": []
         },
         "skills":[
@@ -32,7 +32,7 @@
         "subtitle":"Création d'un site dynamique avec JavaScript",
         "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
-            "principale" : "Dans le cadre de ce projet, ma mission était de concevoir le site portfolio pour l'architecte Sophie Bluel. Les aspects spécifiques de cette mission comprenaient :",
+            "principal" : "Dans le cadre de ce projet, ma mission était de concevoir le site portfolio pour l'architecte Sophie Bluel. Les aspects spécifiques de cette mission comprenaient :",
             "details": [
                 "Finalisation de la page de présentation des travaux : optimisation et achèvement de la page existante dédiée à la présentation des réalisations de l'architecte, en s'appuyant sur le code préexistant",
                 "Création de la page de connexion de l'administrateur : développement complet de la page de connexion destinée à l'administrateur du site, à partir de zéro",
@@ -60,7 +60,7 @@
         "subtitle":"Débug et optimisation d'un site de photographe ",
         "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
-            "principale" : "Dans le cadre de ce projet, notre mission consistait à optimiser le site web de la photographe Nina Carducci. Plus précisément, les exigences spécifiques de cette mission étaient les suivantes :",
+            "principal" : "Dans le cadre de ce projet, notre mission consistait à optimiser le site web de la photographe Nina Carducci. Plus précisément, les exigences spécifiques de cette mission étaient les suivantes :",
             "details": [
                 "L'optimisation globale de son site : amélioration du référencement naturel (SEO) du site pour accroite sa visibilité sur les moteurs de recherche, optimiser les performances pour assurer une expérience utilisateur fluide et réactive, et renforcer l'accessibilité pour garantir une utilisation optimale pour tous les utilisateurs, indépendemment de leurs capacités",
                 "La résolution de bugs spécifiques : corrections des dysfonctionnements liés au défilement des photos dans la modale de la galerie, et résoudre les problèmes d'affichage de la couleur de fond des filtres actifs"
@@ -91,15 +91,15 @@
         "subtitle":"Création d'une application web de location immobilière avec React",
         "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
-            "principale" : "Dans le cadre d'une refonte totale du site de Kasa, une plateforme de location immobilière, nous avons été missionné pour réaliser le front-end. Celui-ci devait être réalisé avec React. Nous devions alors développer l'ensemble de l'application, les composants React, les routes React Router, le tout en suivant les maquettes Figma (responsive) transmise par le designer.",
+            "principal" : "Dans le contexte d'une refonte complète de la plateforme de location immobilière Kasa, nous avons été chargés de la conception du front-end. Ce dernier devait être entièrement développé en utilisant React. Notre mission englobait la création de l'ensemble de l'application, y compris les composants React, la mise en place des routes avec React Router, le tout en respectant les maquettes Figma fournies par le designer.",
             "details":[]
         },
         "skills":[
-            "Initialisation d'un projet React à l'aide du bundler Create React App",
-            "Les composants React & les props",
-            "Les hooks (useState, useEffect, useParams)", 
-            "Réalisation du routing avec la librairie React Router",
-            "Design de la page avec Sass"
+            "Initialisation d'un projet React avec Create React App : utilisation du bundler Create React App pour initialiser et structurer efficacement le projet React",
+            "Composants React et utilisation des props : développement des composants React, en mettant en oeuvre les props pour une gestion flexibles des données et des comportements",
+            "Les hooks : utilisation des hooks React tels que useState pour la gestion de l'état, useEffect pour gérer les effets de bord, et useParams pour récupérer les paramètres de l'URL", 
+            "Réalisation du routing avec React Router : implémentation du routage dans l'application avec l'utilisation de la librairie React Router pour une navigation fluide entre les différentes vues",
+            "Design de la page avec Sass : utilisation de Sass pour concevoir une mise en page esthétique et modulaire, améliorant la lisibilité et la maintenabilité du code"
         ],
         "keywords": 
         [
@@ -118,22 +118,22 @@
         "subtitle":"Développement du back-end d'un site de notation de livres",
         "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
         "mission": {
-            "principale" : "La mission consistait à développer le back-end du site Mon Vieux Grimoire, un site de référencement et de notation de livres. Et plus particulièrement, il s'agissait de :",
+            "principal" : "La mission était centrée sur le développement du back-end du site Mon Vieux Grimoire, une plateforme dédiée au référencement et à la notation de livres. Plus précisément, les objectifs étaient les suivants :",
             "details": [
-                "concevoir et mettre en place le serveur",
-                "développer l'API",
-                "configurer la base de données"
+                "Conception et mise en place du serveur : élaboration d'une architecture serveur robuste et efficace pour soutenir les fonctionnalités requise par le site",
+                "Développement de l'API : création complète de l'API pour permettre l'interaction entre le front-end et la base de données",
+                "Configuration de la base de données : mise en place et configuration de la base de données MongoDB  Atlas pour assurer une gestion optimale des données du site"
             ]
         },
         "skills":[
-            "Création et configuration du serveur Express",
-            "Configuration de la base de données MongoDB Atlas",
-            "Utilisation de la librairie Mongoose",
-            "Développement de l'API Rest",
-            "Définition des routes pour les fonctionnalités CRUD",
-            "Controllers et Middleware",
-            "Création et vérification de token JWT",
-            "Gestion du CORS (Cross-Origin Ressource Sharing)"
+            "Création et configuration du serveur Express : utilisation du framework Express pour concevoir et configurer un serveur HTTP robuste et performant",
+            "Intégration et configuration de la base de données MongoDB Atlas pour garantir une gestion sécurisée et évolutive des données",
+            "Utilisation de la librairie Mongoose : librairie permettant de simplifier les intéractions avec la base de données, ainsi que le développement et la maintenance du back-end",
+            "Développement de l'API Rest : implémentation d'une API Restful pour permettre une communication fluide entre les front-end et le back-end",
+            "Définition des routes pour les fonctionnalités CRUD : mise en place des routes nécessaires pour les opérations CRUD (Create, Read, Update, Delete) pour une gestion complète des données",
+            "Controllers et Middleware : création de contrôleurs pour traiter les demandes HTTP et utilisation de middleware pour gérer l'authentification ou l'optimisation des images",
+            "Création et vérification de token JWT : implémentation sécurisée de la gestion des tokens JWT (JSON Web Token) pour assurer l'authentification et  l'autorisation des utilisateurs",
+            "Gestion du CORS (Cross-Origin Ressource Sharing) : mise en place de politiques CORS appropriées pour permettre le partage de ressources entre le serveur et les domaines différents, tout en assurant la sécurité"
         ],
         "keywords": 
         [
