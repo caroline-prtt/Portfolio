@@ -1,0 +1,80 @@
+@import "../../index.scss";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 350px;
+    box-sizing: border-box;
+    max-width: 460px;
+    border : 1px solid rgba(190, 187, 187, 0.2);
+    box-shadow: 5px 5px 20px rgb(133, 132, 132);
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 1 0 100px;
+        box-sizing: border-box;
+        background-color: white;
+
+        &__image{
+            height: 200px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &__keywords{
+            display: flex;
+            gap: 10px;
+            padding: 20px 10px 0 10px;
+        
+            .keyword{
+                font-size: 16px;
+                color: $color-light-primary;
+                font-weight: 600;
+                padding: 5px 10px;
+                border: 1px solid rgba(195, 190, 190, 0.367);
+                border-radius: 20px;
+                box-shadow: 2px 2px 5px rgb(190, 187, 187);
+            }
+        }
+
+        &__description{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 20px;
+
+            &__title{
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            &__subtitle{
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .link{
+        text-decoration: none;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(229,239,237,1) 0%, rgba(199,221,217,1) 11%, rgba(142,187,178,1) 34%, rgba(111,166,155,1) 100%);
+        color: white;
+        padding: 20px;
+        font-family: $font-title;
+        font-size: 16px;
+        text-align: center;
+        transition: font-size 0.3s ease, padding 0.3s ease;
+
+        &:hover{
+            font-size: 20px;
+            padding: 18px;
+        }
+    }
+
+}
