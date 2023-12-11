@@ -79,7 +79,7 @@
         [
             "SEO",
             "ACCESSIBILITÉ",
-            "GOOGLE LIGHTHOUSE"
+            "OPTIMISATION"
         ],
         "cover": "/images/NinaCarducci_appli.png",
         "pictures":"/images/NinaCarducci_mockup.png",
@@ -108,7 +108,7 @@
             "REACT ROUTER",
             "SASS"
         ],
-        "cover": "/images/Kasa_appli.png",
+        "cover": "/images/kasa_appli.png",
         "pictures":"/images/kasa_mockup.png",
         "github":"https://github.com/caroline-prtt/OC-PROJET-6-Kasa",
         "demo":"https://caroline-prtt.github.io/OC-PROJET-6-Kasa/"
