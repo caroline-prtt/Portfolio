@@ -8,7 +8,7 @@ function Home() {
     <div id="home" className="home">
       <div className="home__title">
         <p className="home__title title"><span>Bienvenue sur mon portfolio,</span></p>
-        <p className="home__title title"><span>JE SUIS CAROLINE PROTAT,</span></p>
+        <h1 className="home__title title"><span>JE SUIS CAROLINE PROTAT,</span></h1>
         <p className="home__title title"><span>DÉVELOPPEUSE WEB.</span></p>
         <p className="home__title subtitle">Basée sur Lyon, je suis à la recherche de ma première expérience en tant que développeuse front-end junior.</p>
         <p className="home__title subtitle">Où me trouver :</p>
