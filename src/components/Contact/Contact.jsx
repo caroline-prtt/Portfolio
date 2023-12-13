@@ -35,7 +35,7 @@ function Contact() {
                         <Link to={"https://www.linkedin.com/in/caroline-protat-b67761231/"} className="contact__container__infos__reseaux linkedin"><FontAwesomeIcon icon={faLinkedin} /></Link>
                         <Link to="https://github.com/caroline-prtt" className="contact__container__infos__reseaux github"><FontAwesomeIcon icon={faGithub} /></Link>
                     </div>
-                    <Link to="https://drive.google.com/file/d/1KVbpC7gSmvwqK5YBwo3HQVcOb42hAdwQ/view?usp=sharing" className="contact__container__infos__cv">MON CV</Link>
+                    <Link to="https://drive.google.com/file/d/1_nadV_Ia2awf8k4s7F8bjehNr_T-b3XY/view?usp=sharing" className="contact__container__infos__cv button">MON CV</Link>
                 </div>
 
                 <form ref={form} onSubmit={sendEmail} className="contact__container__form"> 
@@ -47,7 +47,7 @@ function Contact() {
                     <input type="email" id="email" name="user_email" required/>
                     <label for="message">Message</label>
                     <textarea id="message" name="message" required/>
-                    <input type="submit" id="submit" value="Envoyer" />
+                    <input type="submit" id="submit" className="contact__container__form__submit button" value="ENVOYER" />
                 </form>
 
             </div>
