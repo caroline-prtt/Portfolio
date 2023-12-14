@@ -40,6 +40,10 @@
                 gap: 10px;
             }
 
+            @media (max-width: 768px){
+                gap: 5px;
+            }
+
             .link{
                 font-size: 18px;
                 font-weight: 600;
@@ -54,7 +58,10 @@
 
                 @media (max-width: 768px){
                     font-size: 14px;
-                    // padding: 6px;
+                }
+                @media (max-width: 768px){
+                    font-size: 12px;
+                    padding: 5px;
                 }
 
                 &:hover{
@@ -62,6 +69,12 @@
                     border-right: 2px solide grey;
                     border-bottom: 2px solide grey;
                     box-shadow: 4px 4px 4px rgb(202, 199, 199);
+                }
+
+                &:active{
+                    border-radius: 10px 5px 0 5px;
+                    box-shadow: inset 4px 4px 4px rgb(202, 199, 199);
+
                 }
             }
         }
