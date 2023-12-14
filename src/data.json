@@ -22,7 +22,7 @@
             "GIT"
         ],
         "cover": "/Portfolio/images/booki_appli.png",
-        "pictures": "/images/booki_mockup.png",
+        "pictures": "/Portfolio/images/booki_mockup.png",
         "github": "https://github.com/caroline-prtt/OC-PROJET2-Booki",
         "demo": "https://caroline-prtt.github.io/OC-PROJET2-Booki/"
     },
@@ -49,8 +49,8 @@
             "SWAGGER",
             "API REST"
         ],
-        "cover": "/images/SophieBluel_appli.png",
-        "pictures": "/images/SophieBluel_mockup.png",
+        "cover": "/Portfolio/images/SophieBluel_appli.png",
+        "pictures": "/Portfolio/images/SophieBluel_mockup.png",
         "github":"https://github.com/caroline-prtt/OC-PROJET3-Portfolio-architecte-sophie-bluel",
         "demo":""
     },
@@ -80,8 +80,8 @@
             "ACCESSIBILITÉ",
             "OPTIMISATION"
         ],
-        "cover": "/images/NinaCarducci_appli.png",
-        "pictures":"/images/NinaCarducci_mockup.png",
+        "cover": "/Portfolio/images/NinaCarducci_appli.png",
+        "pictures":"/Portfolio/images/NinaCarducci_mockup.png",
         "github":"https://github.com/caroline-prtt/OC-PROJET5-Nina-Carducci",
         "demo":"https://caroline-prtt.github.io/OC-PROJET5-Nina-Carducci/"
     },
@@ -107,8 +107,8 @@
             "REACT ROUTER",
             "SASS"
         ],
-        "cover": "/images/kasa_appli.png",
-        "pictures":"/images/kasa_mockup.png",
+        "cover": "/Portfolio/images/kasa_appli.png",
+        "pictures":"/Portfolio/images/kasa_mockup.png",
         "github":"https://github.com/caroline-prtt/OC-PROJET-6-Kasa",
         "demo":"https://caroline-prtt.github.io/OC-PROJET-6-Kasa/"
     },
@@ -142,8 +142,8 @@
             "MONGO DB",
             "API REST"
         ],
-        "cover": "/images/VieuxGrimoire_appli.png",
-        "pictures":"/images/VieuxGrimoire_mockup.png",
+        "cover": "/Portfolio/images/VieuxGrimoire_appli.png",
+        "pictures":"/Portfolio/images/VieuxGrimoire_mockup.png",
         "github":"https://github.com/caroline-prtt/OC-PROJET-7-Mon-Vieux-Grimoire",
         "demo":""
     }
