@@ -62,7 +62,6 @@ function Project() {
 
             <div className="project__links">
                 <Link to={project.github} className="project__links link">GITHUB</Link>
-                {/* Ajouter pour démo une fonctionclassname pour cacher si pas de lien demo dans les data */}
                 <Link to={project.demo} className={demoLinkClass}>DÉMO</Link>
             </div>
             
