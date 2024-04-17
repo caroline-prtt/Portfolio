@@ -35,7 +35,7 @@ function Contact() {
                         <Link to={"https://www.linkedin.com/in/caroline-protat-b67761231/"} className="contact__container__infos__reseaux linkedin"><FontAwesomeIcon icon={faLinkedin} /></Link>
                         <Link to="https://github.com/caroline-prtt" className="contact__container__infos__reseaux github"><FontAwesomeIcon icon={faGithub} /></Link>
                     </div>
-                    <Link to="https://drive.google.com/file/d/1_nadV_Ia2awf8k4s7F8bjehNr_T-b3XY/view?usp=sharing" className="contact__container__infos__cv button">MON CV</Link>
+                    <Link to="https://drive.google.com/file/d/1qoTQS2O90Jv41iBT34SsHJ9vUGNU2h8J/view?usp=sharing" className="contact__container__infos__cv button">MON CV</Link>
                 </div>
 
                 <form ref={form} onSubmit={sendEmail} className="contact__container__form"> 
